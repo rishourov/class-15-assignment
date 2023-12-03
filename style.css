@@ -176,3 +176,24 @@
 .box-3 h1 {
     color: aqua;
 }
+
+/* icon */
+
+.icon {
+    position: absolute;
+    top: 540px;
+    left: 580px;
+}
+
+.icon a {
+    text-decoration: none;
+    margin: 0 15px;
+    background: transparent;
+    font-size: 25px;
+    color: aqua;
+    border: solid aqua;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
