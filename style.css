@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 100vh;
+    width: 100%;
+    background-color: #0c0a21;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 450;
+    position: relative;
+    left: 100px;
+    top: 15px;
+    color: white;
+}
+
+.home-a {
+    background-color: blue;
+    border-radius: 3px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 450;
+    position: relative;
+    right: 80px;
+    top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+
+.nav-right a:hover {
+
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* box design */
+.home {
+    position: relative;
+    top: 270px;
+    left: 100px;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.26);
+    height: 250px;
+}
+
+.home h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.home h2 {
+    color: aqua;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.home p {
+    color: white;
+}
+
+.btn a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    background-color: aqua;
+    color: blue;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 500px;
+    border: 1px solid aqua
+}
+
+.home a:nth-child(2) {
+    background-color: transparent;
+    color: aqua;
+}
+
+/* box */
+
+.main {
+    position: relative;
+    top: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(34, 33, 33, 0.5)), url(image/web-development-programming-code-app-development-web-design-computer-seo-3d-background_125322-462.jpg);
+    background-size: cover;
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 150px;
+    /* margin-left: 50px; */
+    text-align: center;
+
+
+}
+
+.box-1 {
+    background-color: rgba(0, 0, 0, 0.365);
+    height: 150px;
+    border-radius: 10px;
+    width: 950px;
+    margin: 10px 30px;
+}
+
+.box-1 p {
+    font-size: 14px;
+    margin-top: 8px;
+
+}
+
+.box-1 h1 {
+    color: aqua;
+}
+
+.box-2 {
+    background-color: rgba(0, 0, 0, 0.365);
+    height: 150px;
+    border-radius: 10px;
+    width: 950px;
+    margin: 10px 30px;
+
+
+}
+
+.box-2 p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.box-2 h1 {
+    color: aqua;
+}
+
+/*  */
+
+.box-3 {
+    background-color: rgba(0, 0, 0, 0.365);
+    height: 150px;
+    border-radius: 10px;
+    width: 950px;
+    margin: 10px 30px;
+
+
+}
+
+.box-3 p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.box-3 h1 {
+    color: aqua;
+}
